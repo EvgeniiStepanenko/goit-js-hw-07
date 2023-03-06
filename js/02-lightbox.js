@@ -22,6 +22,9 @@ function createGalleryMurkup (items ){
   .join("");
 };
 
+const imgEl = document.querySelector('.gallery__image');
+
+
 const addGalleryMurkup = createGalleryMurkup(galleryItems);
 
 ulEl.innerHTML = addGalleryMurkup;
